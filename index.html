@@ -5,8 +5,61 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="flex container">
+        <div class="sidebar">
+            <div class="logo">
+                After Dark
+            </div>
+            <div class="copyright">
+                <p>Photo by <a href="https://unsplash.com/photos/LdxV5gWHdlM">Willian Justen de Vasconcellos at Unsplash</a></p>
+            </div>
+        </div>
+        <div class="content">
 
+            <div class="form">
+                <h1>Glad to have you on-board!</h1>
+                <h3>Fill out the sign-up sheet to join our mailing list.</h3>
+                <form>
+                    <div class="row">
+                        <div class="item">
+                            <label for="fname">First Name *</label>
+                            <input name="fname" placeholder="Thor" minlength="3" maxlength="30" required />
+                        </div>
+                        <div class="item">
+                            <label for="lname">Last Name *</label>
+                            <input name="lname" placeholder="Odinson" minlength="3" maxlength="30" required />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="item">
+                            <label for="email">Email Address *</label>
+                            <input name="email" placeholder="thor@odinproject.com" required type="email" />
+                        </div>
+                        <div class="item">
+                            <label for="phone">Phone Number</label>
+                            <input name="phone" placeholder="777-777-7777" pattern="\d{3}[\-]\d{3}[\-]\d{4}" />
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="item">
+                            <label for="pass">Strong Password *</label>
+                            <input name="pass" placeholder="Super strong password" required type="password" />
+                        </div>
+                        <div class="item">
+                            <label for="pass-confirm">Confirm Password *</label>
+                            <input name="pass-confirm" placeholder="Confirmed" required type="password" />
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
+

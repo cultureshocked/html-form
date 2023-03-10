@@ -19,11 +19,15 @@
             </div>
         </div>
         <div class="content">
+            <div class="header">
+                <h3>This is what you need. a completely fake service for you to sign up at. Give me all your personal infomation right now and be rewarded with the only service you will ever need again. For the rest of your life.</h3>
+            </div>
 
-            <div class="form">
-                <h1>Glad to have you on-board!</h1>
-                <h3>Fill out the sign-up sheet to join our mailing list.</h3>
-                <form>
+
+            <form>
+                <div class="form">
+                    <h1>Glad to have you on-board!</h1>
+                    <h3>Fill out the sign-up sheet to join our mailing list.</h3>
                     <div class="row">
                         <div class="item">
                             <label for="fname">First Name *</label>
@@ -34,7 +38,6 @@
                             <input name="lname" placeholder="Odinson" minlength="3" maxlength="30" required />
                         </div>
                     </div>
-
                     <div class="row">
                         <div class="item">
                             <label for="email">Email Address *</label>
@@ -56,8 +59,15 @@
                             <input name="pass-confirm" placeholder="Confirmed" required type="password" />
                         </div>
                     </div>
-                </form>
-            </div>
+                </div>
+                <div class="controls flex">
+                    <button>Register</button>
+                    <p class="login">Or, <a>Log in</a> if you're already registered.</p>
+                </div>
+            </form>
+
+
+
         </div>
     </div>
 </body>

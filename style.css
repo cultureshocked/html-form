@@ -29,10 +29,31 @@ body, .container {
     background-color: #eef4f8
 }
 
+.header {
+    word-wrap: break-word;
+    width: 50%;
+    height: 33%;
+    box-sizing: border-box;
+    padding: 40px
+}
+
+.header h3 {
+    position: relative;
+    transform: translateY(-50%);
+    top: 50%
+}
+
+form {
+    height: 67%
+}
+
 .form {
-    box-shadow: 0px 5px 5px #aaa;
+    box-shadow: 0px 3px 3px #aaa;
     padding: 40px;
-    background-color: #fff
+    background-color: #fff;
+    height: 50%;
+    min-height: 330px;
+    box-sizing: border-box;
 }
 
 .item {
@@ -95,4 +116,25 @@ input:optional {
     color: #fff;
     font-size: 50px;
     text-align: center;
+}
+
+.controls {
+    padding: 40px
+
+}
+
+.controls button {
+    border: 1px solid #aaa;
+    background-color: #2eCC71;
+    padding: 2px 20px;
+    border-radius: 5px
+}
+
+.controls > p > a {
+    color: #2ECC71;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.controls p {
+    padding-left: 10px
 }
